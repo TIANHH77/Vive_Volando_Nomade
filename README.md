@@ -15,15 +15,16 @@
     <img src="https://img.shields.io/badge/Fotos_Indexadas-1579-00FF00?style=for-the-badge&logo=icloud&logoColor=white" alt="Data">
   </p>
 
+
 <div align="center">
-  <img src="https://vivevolandonomade.com/ruta-de-tu-logo-o-banner.jpg" alt="Vive Volando Nomade" width="100%">
-
-  <h1>🌍 BIENVENIDO AL ATLAS v3.2 (BETA) 🌍</h1>
-  <p>Explora las rutas de vuelo, expediciones y mapas interactivos directamente en nuestra plataforma oficial.</p>
-
-  <a href="https://vivevolandonomade.com/" target="_blank">
-    <img src="https://img.shields.io/badge/ACCEDER%20AL%20ATLAS-PRINCIPAL-blue?style=for-the-badge&logo=adventureist" alt="Acceder al Atlas">
-  </a>
+  <h1><a href="https://vivevolandonomade.com/">🌍 ACCEDER AL ATLAS v3.2 (BETA) 🌍</a></h1>
+  
+  <p align="center">
+    <a href="#-español"><b>🇪🇸 Español</b></a> | 
+    <a href="#-english"><b>🇺🇸 English</b></a> | 
+    <a href="#-português"><b>🇧🇷 Português</b></a>
+  </p>
+</div>
 
   <br><br>
 
