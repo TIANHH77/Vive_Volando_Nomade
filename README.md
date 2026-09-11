@@ -15,7 +15,9 @@
     <img src="https://img.shields.io/badge/Fotos_Indexadas-1579-00FF00?style=for-the-badge&logo=icloud&logoColor=white" alt="Data">
   </p>
 
-  <h1><a href="https://tianhh77.github.io/vivevolandonomade/">🌍 ACCEDER AL ATLAS v3.2 (BETA) 🌍</a></h1>
+
+<div align="center">
+  <h1><a href="https://vivevolandonomade.com/">🌍 ACCEDER AL ATLAS v3.2 (BETA) 🌍</a></h1>
   
   <p align="center">
     <a href="#-español"><b>🇪🇸 Español</b></a> | 
@@ -24,6 +26,14 @@
   </p>
 </div>
 
+  <br><br>
+
+  <p>
+    <a href="#-español"><b>🇪🇸 Español</b></a> | 
+    <a href="#-english"><b>🇺🇸 English</b></a> | 
+    <a href="#-português"><b>🇧🇷 Português</b></a>
+  </p>
+</div>
 
 <img src="fotos\pub_antartida\IMG_9818xx.webp" width="100%" alt="Haroldo Horta - Portada" style="border-radius: 8px; border: 1px solid #333;">
 ---
