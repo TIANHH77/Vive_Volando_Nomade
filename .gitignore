@@ -1,15 +1,13 @@
 # --- 🛑 ZONA DE EXCLUSIÓN (Data Pesada) ---
-# Ignorar la carpeta masiva que se está copiando ahora
 legado_haroldo/
 LEGADO_HAROLDO/
 DISCO_MAESTRO_HAROLDO/
 Scripts/
 
-# Ignorar las fotos de trabajo (F:\fotos) para no llenar GitHub
-fotos/
+# --- 📸 FORMATOS PESADOS/CRUDOS QUE NO DEBEN SUBIR ---
+# Ignoramos los crudos y videos originales, pero NO ignoramos la carpeta fotos/
 *.jpg
 *.jpeg
-*.png
 *.tif
 *.tiff
 *.CR2
@@ -17,26 +15,23 @@ fotos/
 *.mp4
 *.mov
 
-
-
 # --- 🧹 BASURA DEL SISTEMA ---
 __pycache__/
 *.pyc
 .env
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 $RECYCLE.BIN/
 System Volume Information/
+*.xmp
 
 # --- 🔐 SEGURIDAD ---
-# Archivos con claves o configuraciones privadas
 mis_secretos.py
 .streamlit/secrets.toml
 
-$RECYCLE.BIN/
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-.DS_Store
-# --- METADATOS DE ADOBE BRIDGE ---
-*.xmp
+# --- 📊 BASES DE DATOS Y REPORTES LOCALES ---
+*.xlsx
+*.db
+reporte_*.csv
