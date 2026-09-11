@@ -3,6 +3,7 @@
 legado_haroldo/
 LEGADO_HAROLDO/
 DISCO_MAESTRO_HAROLDO/
+Scripts/
 
 # Ignorar las fotos de trabajo (F:\fotos) para no llenar GitHub
 fotos/
@@ -15,6 +16,8 @@ fotos/
 *.dng
 *.mp4
 *.mov
+
+
 
 # --- 🧹 BASURA DEL SISTEMA ---
 __pycache__/

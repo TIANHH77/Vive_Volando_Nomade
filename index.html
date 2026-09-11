@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
     
+    <!-- PLUGINS DE CLUSTERING -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    
     <style>
         :root {
             --cian: #00d4ff;     /* Aéreas */
@@ -96,6 +100,19 @@
         .leaflet-popup-content-wrapper { background: #000 !important; color: #fff !important; border: 1px solid #333 !important; border-radius: 2px !important; }
         .btn-expediente { display: block; width: 100%; background: #fff; color: #000; text-align: center; padding: 10px; margin-top: 10px; font-weight: bold; text-decoration: none; font-size: 10px; text-transform: uppercase; }
         .btn-cine { display: block; width: 100%; background: var(--rojo); color: #fff; text-align: center; padding: 10px; margin-top: 10px; font-weight: bold; border:none; cursor:pointer; font-size: 10px; }
+        
+        /* ESTILOS CUSTOM PARA EL CLUSTER OSCURO */
+        .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large {
+            background-color: rgba(0, 0, 0, 0.8) !important;
+            border: 2px solid var(--oro) !important;
+            color: white !important;
+        }
+        .marker-cluster div {
+            background-color: transparent !important;
+            color: white !important;
+            font-family: monospace;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body class="view-flat">
@@ -112,10 +129,6 @@
         <div class="control-group">
             <button class="view-btn" id="angle-oblique" onclick="setViewMode('oblique')">Oblicuo</button>
             <button class="view-btn active" id="angle-flat" onclick="setViewMode('flat')">Plano</button>
-        </div>
-        <div class="control-group">
-            <button class="view-btn active" id="layer-radar" onclick="setMapLayer('radar')">Radar</button>
-            <button class="view-btn" id="layer-sat" onclick="setMapLayer('sat')">Satélite</button>
         </div>
     </div>
 
@@ -151,14 +164,25 @@
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- PLUGIN DE CLUSTERING -->
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    
     <script>
         let allData = [];
-        let markers = L.layerGroup();
+        
+        let markers = L.markerClusterGroup({
+            maxClusterRadius: 50,
+            spiderfyOnMaxZoom: true,
+            showCoverageOnHover: false,
+            zoomToBoundsOnClick: true
+        });
+        
         let filtrosActivos = { fly: true, pub: true, nomad: true, video: true, audio: true };
 
         const map = L.map('map', { zoomControl: false, attributionControl: false }).setView([-33.448, -70.665], 4);
-        const radar = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
-        const sat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
+        
+        // CAPA SATELITAL DE ARCGIS (SIN API KEY) ESTABLECIDA POR DEFECTO
+        const sat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}').addTo(map);
         markers.addTo(map);
 
         function setViewMode(mode) {
@@ -166,13 +190,6 @@
             document.getElementById('angle-oblique').classList.toggle('active', mode === 'oblique');
             document.getElementById('angle-flat').classList.toggle('active', mode === 'flat');
             setTimeout(() => map.invalidateSize(), 800);
-        }
-
-        function setMapLayer(layer) {
-            if (layer === 'radar') { map.removeLayer(sat); radar.addTo(map); } 
-            else { map.removeLayer(radar); sat.addTo(map); }
-            document.getElementById('layer-radar').classList.toggle('active', layer === 'radar');
-            document.getElementById('layer-sat').classList.toggle('active', layer === 'sat');
         }
 
         fetch('data/puntos_mapa.json?v=' + new Date().getTime())
@@ -194,7 +211,6 @@
        function renderizarMapa() {
             markers.clearLayers();
             
-            // ORDENAR: Las fotos de 5 estrellas se dibujan AL FINAL para que queden encima de las normales
             let datosOrdenados = [...allData].sort((a, b) => (a.rating || 0) - (b.rating || 0));
 
             datosOrdenados.forEach(p => {
@@ -213,7 +229,6 @@
                         fillOpacity: 0.9
                     });
 
-                    // Estrellas doradas solo si es Rating 5 (Bridge)
                     let estrellasHtml = esElite ? '<div style="color:var(--oro); font-size:16px; margin-bottom:5px;">★★★★★</div>' : '';
 
                     let popupContent = `
@@ -229,7 +244,7 @@
                         </div>
                     `;
 
-                    marker.bindPopup(popupContent).addTo(markers);
+                    marker.bindPopup(popupContent).addTo(markers); 
                 }
             });
         }

@@ -60,8 +60,8 @@
         }
 
         .visor-content { 
-            display: flex; flex-direction: column; align-items: center; 
-            padding: 40px; min-height: 100vh; 
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            padding: 40px; min-height: 100vh; position: relative;
         }
 
         #imgVisor { max-width: 90%; max-height: 70vh; border: 1px solid #333; box-shadow: 0 0 50px rgba(0,0,0,0.5); }
@@ -83,6 +83,16 @@
             color: #fff; padding: 10px 15px; cursor: pointer; z-index: 1100;
         }
         .btn-cerrar:hover { background: #fff; color: #000; }
+        
+        /* Controles Carrusel */
+        .btn-nav {
+            position: absolute; top: 40%; background: rgba(0,0,0,0.5); border: 1px solid var(--oro); 
+            color: var(--oro); font-size: 24px; cursor: pointer; padding: 15px; z-index: 1001;
+            transition: 0.3s; border-radius: 4px;
+        }
+        .btn-nav:hover { background: var(--oro); color: #000; }
+        .btn-prev { left: 30px; }
+        .btn-next { right: 30px; }
 
         /* Animación de carga */
         .loading { text-align: center; padding: 50px; color: var(--oro); font-style: italic; }
@@ -104,6 +114,9 @@
 <div id="miVisor" class="visor-overlay">
     <button class="btn-cerrar" onclick="cerrarVisor()">CERRAR [X]</button>
     <div class="visor-content">
+        <button class="btn-nav btn-prev" onclick="cambiarFoto(-1)">&#10094;</button>
+        <button class="btn-nav btn-next" onclick="cambiarFoto(1)">&#10095;</button>
+        
         <img id="imgVisor" src="" alt="Cargando...">
         
         <div class="visor-info">
@@ -124,8 +137,10 @@
 
 <script>
     let allData = [];
+    let currentDisplayData = [];
+    let currentIndex = 0;
 
-    // Obtener zona de la URL si existe (ej: galeria.html?zona=santiago)
+    // Obtener zona de la URL si existe
     const urlParams = new URLSearchParams(window.location.search);
     const zonaFiltrada = urlParams.get('zona');
 
@@ -136,46 +151,60 @@
             document.getElementById('loading').style.display = 'none';
             const container = document.getElementById('galeria');
 
-            // Filtrar por zona si se requiere, sino mostrar todo
-            let displayData = zonaFiltrada ? data.filter(p => p.zona === zonaFiltrada) : data;
+            // Filtrar fotos válidas (sin youtube_id) y por zona si aplica
+            currentDisplayData = zonaFiltrada ? data.filter(p => p.zona === zonaFiltrada && !p.youtube_id) : data.filter(p => !p.youtube_id);
 
-            displayData.forEach(p => {
-                // Solo mostrar si tiene imagen (no YouTube)
-                if(!p.youtube_id) {
-                    const idLimpio = p.id.split('_').slice(-2, -1)[0] || p.id;
-                    
-                    container.innerHTML += `
-                        <div class="card-expediente" onclick="abrirVisor('${p.id}')">
-                            <div class="img-container">
-                                <img src="${p.thumb}" loading="lazy">
-                            </div>
-                            <div class="info-card">
-                                <b>ID:</b> ${idLimpio} <br>
-                                <b>TÍTULO:</b> ${p.titulo}
-                                ${p.has_master ? '<br><span style="color:var(--cian); font-size:9px;">💎 MASTER VINCULADO</span>' : ''}
-                            </div>
+            currentDisplayData.forEach(p => {
+                const idLimpio = p.id.split('_').slice(-2, -1)[0] || p.id;
+                
+                container.innerHTML += `
+                    <div class="card-expediente" onclick="abrirVisor('${p.id}')">
+                        <div class="img-container">
+                            <img src="${p.thumb}" loading="lazy">
                         </div>
-                    `;
-                }
+                        <div class="info-card">
+                            <b>ID:</b> ${idLimpio} <br>
+                            <b>TÍTULO:</b> ${p.titulo}
+                            ${p.has_master ? '<br><span style="color:var(--cian); font-size:9px;">💎 MASTER VINCULADO</span>' : ''}
+                        </div>
+                    </div>
+                `;
             });
         });
 
     function abrirVisor(id) {
-        const p = allData.find(item => item.id === id);
-        if(!p) return;
+        currentIndex = currentDisplayData.findIndex(item => item.id === id);
+        renderizarVisor(currentDisplayData[currentIndex]);
+        document.getElementById('miVisor').style.display = 'block';
+        document.body.style.overflow = 'hidden'; 
+    }
 
+    function cambiarFoto(direccion) {
+        currentIndex += direccion;
+        
+        // Carrusel infinito
+        if (currentIndex < 0) {
+            currentIndex = currentDisplayData.length - 1;
+        } else if (currentIndex >= currentDisplayData.length) {
+            currentIndex = 0;
+        }
+        
+        renderizarVisor(currentDisplayData[currentIndex]);
+    }
+
+    function renderizarVisor(p) {
+        if(!p) return;
+        
         document.getElementById('imgVisor').src = p.full;
         document.getElementById('tituloVisor').innerText = p.titulo.toUpperCase();
         document.getElementById('zonaVisor').innerText = p.zona.toUpperCase();
         document.getElementById('capaVisor').innerText = p.capa.toUpperCase();
         
-        // Limpiamos el ID para el visor también
         const idLimpio = p.id.split('_').slice(-2, -1)[0] || p.id;
         document.getElementById('idVisor').innerText = idLimpio;
         
         document.getElementById('descVisor').innerText = p.descripcion || "Este archivo forma parte del registro histórico de Haroldo Horta.";
 
-        // Lógica del Botón Master
         const btnMaster = document.getElementById('btnMaster');
         if (p.has_master) {
             btnMaster.style.display = 'inline-block';
@@ -188,9 +217,6 @@
         } else {
             btnMaster.style.display = 'none';
         }
-
-        document.getElementById('miVisor').style.display = 'block';
-        document.body.style.overflow = 'hidden'; 
     }
 
     function cerrarVisor() {
@@ -198,9 +224,14 @@
         document.body.style.overflow = 'auto';
     }
 
-    // Cerrar con tecla ESC
+    // Controles de teclado
     document.addEventListener('keydown', (e) => {
-        if (e.key === "Escape") cerrarVisor();
+        // Solo actuar si el visor está abierto
+        if (document.getElementById('miVisor').style.display === 'block') {
+            if (e.key === "Escape") cerrarVisor();
+            if (e.key === "ArrowRight") cambiarFoto(1);
+            if (e.key === "ArrowLeft") cambiarFoto(-1);
+        }
     });
 </script>
 

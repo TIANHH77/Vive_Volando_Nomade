@@ -8,7 +8,7 @@
     "titulo": "Collage1",
     "thumb": "fotos/pub_europa/collage1.webp",
     "full": "fotos/pub_europa/collage1.webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Archivo General Europa",
     "relato": "Pendiente de relato..."
   },
@@ -34,7 +34,7 @@
     "titulo": "Junin",
     "thumb": "fotos/fly_junin/junin_(10).webp",
     "full": "fotos/fly_junin/junin_(10).webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Base Junín Argentina",
     "relato": "Pendiente de relato..."
   },
@@ -60,7 +60,7 @@
     "titulo": "Junin",
     "thumb": "fotos/fly_junin/junin_(12).webp",
     "full": "fotos/fly_junin/junin_(12).webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Base Junín Argentina",
     "relato": "Pendiente de relato..."
   },
@@ -73,7 +73,7 @@
     "titulo": "Junin",
     "thumb": "fotos/fly_junin/junin_(13).webp",
     "full": "fotos/fly_junin/junin_(13).webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Base Junín Argentina",
     "relato": "Pendiente de relato..."
   },
@@ -99,7 +99,7 @@
     "titulo": "Junin",
     "thumb": "fotos/fly_junin/junin_(9).webp",
     "full": "fotos/fly_junin/junin_(9).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Base Junín Argentina",
     "relato": "Pendiente de relato..."
   },
@@ -151,7 +151,7 @@
     "titulo": "Retrato 1",
     "thumb": "fotos/pub_lima/retrato_1.webp",
     "full": "fotos/pub_lima/retrato_1.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -164,7 +164,7 @@
     "titulo": "Coche bomba",
     "thumb": "fotos/pub_lima/coche_bomba.webp",
     "full": "fotos/pub_lima/coche_bomba.webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -177,7 +177,7 @@
     "titulo": "Abimael guzman 0",
     "thumb": "fotos/pub_lima/abimael_guzman_0.webp",
     "full": "fotos/pub_lima/abimael_guzman_0.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -190,7 +190,7 @@
     "titulo": "Fujimori periodistas",
     "thumb": "fotos/pub_lima/fujimori_periodistas.webp",
     "full": "fotos/pub_lima/fujimori_periodistas.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -203,7 +203,7 @@
     "titulo": "Condiciones salud",
     "thumb": "fotos/pub_lima/condiciones_salud.webp",
     "full": "fotos/pub_lima/condiciones_salud.webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -216,7 +216,7 @@
     "titulo": "Sendero luminoso 2",
     "thumb": "fotos/pub_lima/sendero_luminoso_2.webp",
     "full": "fotos/pub_lima/sendero_luminoso_2.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -229,7 +229,7 @@
     "titulo": "Campesinos armados",
     "thumb": "fotos/pub_lima/campesinos_armados.webp",
     "full": "fotos/pub_lima/campesinos_armados.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -255,7 +255,7 @@
     "titulo": "Efectos colera",
     "thumb": "fotos/pub_lima/efectos_colera.webp",
     "full": "fotos/pub_lima/efectos_colera.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -268,7 +268,7 @@
     "titulo": "Embajada 1",
     "thumb": "fotos/pub_lima/embajada_1.webp",
     "full": "fotos/pub_lima/embajada_1.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -281,7 +281,7 @@
     "titulo": "Embajada 2",
     "thumb": "fotos/pub_lima/embajada_2.webp",
     "full": "fotos/pub_lima/embajada_2.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -294,7 +294,7 @@
     "titulo": "Embajada 4",
     "thumb": "fotos/pub_lima/embajada_4.webp",
     "full": "fotos/pub_lima/embajada_4.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -307,7 +307,7 @@
     "titulo": "Embajada 0",
     "thumb": "fotos/pub_lima/embajada_0.webp",
     "full": "fotos/pub_lima/embajada_0.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -320,7 +320,7 @@
     "titulo": "Embajada 3",
     "thumb": "fotos/pub_lima/embajada_3.webp",
     "full": "fotos/pub_lima/embajada_3.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -333,7 +333,7 @@
     "titulo": "Afoco bendito desierto0",
     "thumb": "fotos/pub_lima/afoco_bendito_desierto0.webp",
     "full": "fotos/pub_lima/afoco_bendito_desierto0.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -346,7 +346,7 @@
     "titulo": "Afoco bendito desierto1",
     "thumb": "fotos/pub_lima/afoco_bendito_desierto1.webp",
     "full": "fotos/pub_lima/afoco_bendito_desierto1.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -359,7 +359,7 @@
     "titulo": "Campesino tienda",
     "thumb": "fotos/pub_lima/campesino_tienda.webp",
     "full": "fotos/pub_lima/campesino_tienda.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -372,7 +372,7 @@
     "titulo": "Ejercito peruano 2",
     "thumb": "fotos/pub_lima/ejercito_peruano_2.webp",
     "full": "fotos/pub_lima/ejercito_peruano_2.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -385,7 +385,7 @@
     "titulo": "Fujimori 1991",
     "thumb": "fotos/pub_lima/fujimori_1991.webp",
     "full": "fotos/pub_lima/fujimori_1991.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -398,7 +398,7 @@
     "titulo": "Mercado lima",
     "thumb": "fotos/pub_lima/mercado_lima.webp",
     "full": "fotos/pub_lima/mercado_lima.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -411,7 +411,7 @@
     "titulo": "Mujeres campesinas sierra peru",
     "thumb": "fotos/pub_lima/mujeres_campesinas_sierra_peru.webp",
     "full": "fotos/pub_lima/mujeres_campesinas_sierra_peru.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -437,7 +437,7 @@
     "titulo": "Peru colera",
     "thumb": "fotos/pub_lima/peru_colera.webp",
     "full": "fotos/pub_lima/peru_colera.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -450,7 +450,7 @@
     "titulo": "Portada caretas inundaciones",
     "thumb": "fotos/pub_lima/portada_caretas_inundaciones.webp",
     "full": "fotos/pub_lima/portada_caretas_inundaciones.webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Embajada Japonesa / Prensa",
     "relato": "Pendiente de relato..."
   },
@@ -489,7 +489,7 @@
     "titulo": "Fotografo uyuni",
     "thumb": "fotos/nomad_uyuni/fotografo_uyuni.webp",
     "full": "fotos/nomad_uyuni/fotografo_uyuni.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Salar de Uyuni / Bolivia",
     "relato": "Pendiente de relato..."
   },
@@ -502,7 +502,7 @@
     "titulo": "Hotel sal",
     "thumb": "fotos/nomad_uyuni/hotel_sal.webp",
     "full": "fotos/nomad_uyuni/hotel_sal.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Salar de Uyuni / Bolivia",
     "relato": "Pendiente de relato..."
   },
@@ -554,7 +554,7 @@
     "titulo": "Saltando uyuni",
     "thumb": "fotos/nomad_uyuni/saltando_uyuni.webp",
     "full": "fotos/nomad_uyuni/saltando_uyuni.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Salar de Uyuni / Bolivia",
     "relato": "Pendiente de relato..."
   },
@@ -567,7 +567,7 @@
     "titulo": "05052002-doble-pag.-stern",
     "thumb": "fotos/pub_alemania/05052002-doble-pag.-stern.webp",
     "full": "fotos/pub_alemania/05052002-doble-pag.-stern.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Publicaciones Europa",
     "relato": "Pendiente de relato..."
   },
@@ -580,7 +580,7 @@
     "titulo": "05052002-pub.doble.-marisol-y-tino",
     "thumb": "fotos/pub_alemania/05052002-pub.doble.-marisol-y-tino.webp",
     "full": "fotos/pub_alemania/05052002-pub.doble.-marisol-y-tino.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Publicaciones Europa",
     "relato": "Pendiente de relato..."
   },
@@ -593,7 +593,7 @@
     "titulo": "05052002-pub.sueca-fotografo-hh",
     "thumb": "fotos/pub_alemania/05052002-pub.sueca-fotografo-hh.webp",
     "full": "fotos/pub_alemania/05052002-pub.sueca-fotografo-hh.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Publicaciones Europa",
     "relato": "Pendiente de relato..."
   },
@@ -606,7 +606,7 @@
     "titulo": "05052002-pub",
     "thumb": "fotos/pub_alemania/05052002-pub.webp",
     "full": "fotos/pub_alemania/05052002-pub.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Publicaciones Europa",
     "relato": "Pendiente de relato..."
   },
@@ -632,7 +632,7 @@
     "titulo": "Base-naval-prat-antartica",
     "thumb": "fotos/pub_antartida/base-naval-prat-antartica.webp",
     "full": "fotos/pub_antartida/base-naval-prat-antartica.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Base Frei / Territorio Antártico",
     "relato": "Pendiente de relato..."
   },
@@ -645,7 +645,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(1).webp",
     "full": "fotos/nomad_cejar/cejar_(1).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -658,7 +658,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(10).webp",
     "full": "fotos/nomad_cejar/cejar_(10).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -671,7 +671,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(11).webp",
     "full": "fotos/nomad_cejar/cejar_(11).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -684,7 +684,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(12).webp",
     "full": "fotos/nomad_cejar/cejar_(12).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -697,7 +697,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(13).webp",
     "full": "fotos/nomad_cejar/cejar_(13).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -710,7 +710,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(14).webp",
     "full": "fotos/nomad_cejar/cejar_(14).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -723,7 +723,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(2).webp",
     "full": "fotos/nomad_cejar/cejar_(2).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -736,7 +736,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(3).webp",
     "full": "fotos/nomad_cejar/cejar_(3).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -762,7 +762,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(5).webp",
     "full": "fotos/nomad_cejar/cejar_(5).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -775,7 +775,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(6).webp",
     "full": "fotos/nomad_cejar/cejar_(6).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -788,7 +788,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(7).webp",
     "full": "fotos/nomad_cejar/cejar_(7).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -801,7 +801,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(8).webp",
     "full": "fotos/nomad_cejar/cejar_(8).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -814,7 +814,7 @@
     "titulo": "Cejar",
     "thumb": "fotos/nomad_cejar/cejar_(9).webp",
     "full": "fotos/nomad_cejar/cejar_(9).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Laguna Cejar",
     "relato": "Pendiente de relato..."
   },
@@ -840,7 +840,7 @@
     "titulo": "Chiloe362 copy 1",
     "thumb": "fotos/pub_chiloe/chiloe362_copy_1.webp",
     "full": "fotos/pub_chiloe/chiloe362_copy_1.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Mitología y Paisaje",
     "relato": "Pendiente de relato..."
   },
@@ -866,7 +866,7 @@
     "titulo": "Chiloe646 copy 2",
     "thumb": "fotos/pub_chiloe/chiloe646_copy_2.webp",
     "full": "fotos/pub_chiloe/chiloe646_copy_2.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Mitología y Paisaje",
     "relato": "Pendiente de relato..."
   },
@@ -879,7 +879,7 @@
     "titulo": "Chiloe balsas 3 pwp",
     "thumb": "fotos/pub_chiloe/chiloe_balsas_3_pwp.webp",
     "full": "fotos/pub_chiloe/chiloe_balsas_3_pwp.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Mitología y Paisaje",
     "relato": "Pendiente de relato..."
   },
@@ -918,7 +918,7 @@
     "titulo": "Entrada al estrecho, faro dungenes en la punta",
     "thumb": "fotos/pub_estrecho_magallanes/entrada_al_estrecho,_faro_dungenes_en_la_punta.webp",
     "full": "fotos/pub_estrecho_magallanes/entrada_al_estrecho,_faro_dungenes_en_la_punta.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Navegación Austral",
     "relato": "Pendiente de relato..."
   },
@@ -931,7 +931,7 @@
     "titulo": "Estrecho, faro espiritu santo",
     "thumb": "fotos/pub_estrecho_magallanes/estrecho,_faro_espiritu_santo.webp",
     "full": "fotos/pub_estrecho_magallanes/estrecho,_faro_espiritu_santo.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Navegación Austral",
     "relato": "Pendiente de relato..."
   },
@@ -957,7 +957,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(1).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(1).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -970,7 +970,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(10).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(10).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -983,7 +983,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(11).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(11).webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -996,7 +996,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(12).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(12).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -1009,7 +1009,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(13).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(13).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -1048,7 +1048,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(16).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(16).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -1061,7 +1061,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(17).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(17).webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -1074,7 +1074,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(18).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(18).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -1087,7 +1087,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(2).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(2).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -1100,7 +1100,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(3).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(3).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -1113,7 +1113,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(4).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(4).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -1126,7 +1126,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(5).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(5).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -1152,7 +1152,7 @@
     "titulo": "Fordlandia",
     "thumb": "fotos/pub_fordlandia/fordlandia_(7).webp",
     "full": "fotos/pub_fordlandia/fordlandia_(7).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Proyecto Ford / Amazonía",
     "relato": "Pendiente de relato..."
   },
@@ -1191,7 +1191,7 @@
     "titulo": "Lazcar",
     "thumb": "fotos/nomad_lazcar/lazcar_(1).webp",
     "full": "fotos/nomad_lazcar/lazcar_(1).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Volcán Lascar",
     "relato": "Pendiente de relato..."
   },
@@ -1217,7 +1217,7 @@
     "titulo": "Lazcar",
     "thumb": "fotos/nomad_lazcar/lazcar_(3).webp",
     "full": "fotos/nomad_lazcar/lazcar_(3).webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Volcán Lascar",
     "relato": "Pendiente de relato..."
   },
@@ -1230,7 +1230,7 @@
     "titulo": "Mgd7164",
     "thumb": "fotos/pub_lota/_mgd7164.webp",
     "full": "fotos/pub_lota/_mgd7164.webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Realismo Social Carbón",
     "relato": "Pendiente de relato..."
   },
@@ -1256,7 +1256,7 @@
     "titulo": "Lota chile 1990 pescando carbon",
     "thumb": "fotos/pub_lota/lota_chile_1990_pescando_carbon.webp",
     "full": "fotos/pub_lota/lota_chile_1990_pescando_carbon.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Realismo Social Carbón",
     "relato": "Pendiente de relato..."
   },
@@ -1269,7 +1269,7 @@
     "titulo": "05052002-doble-pag.pub.-sueca",
     "thumb": "fotos/pub_suecia/05052002-doble-pag.pub.-sueca.webp",
     "full": "fotos/pub_suecia/05052002-doble-pag.pub.-sueca.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Publicaciones Europa",
     "relato": "Pendiente de relato..."
   },
@@ -1282,7 +1282,7 @@
     "titulo": "05052002-pub-sueca-fothh3",
     "thumb": "fotos/pub_suecia/05052002-pub-sueca-fothh3.webp",
     "full": "fotos/pub_suecia/05052002-pub-sueca-fothh3.webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Publicaciones Europa",
     "relato": "Pendiente de relato..."
   },
@@ -1295,7 +1295,7 @@
     "titulo": "05052002-pub-sueca-fotograf-hh2",
     "thumb": "fotos/pub_suecia/05052002-pub-sueca-fotograf-hh2.webp",
     "full": "fotos/pub_suecia/05052002-pub-sueca-fotograf-hh2.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Publicaciones Europa",
     "relato": "Pendiente de relato..."
   },
@@ -1308,7 +1308,7 @@
     "titulo": "05052002-pub.sueca-2",
     "thumb": "fotos/pub_suecia/05052002-pub.sueca-2.webp",
     "full": "fotos/pub_suecia/05052002-pub.sueca-2.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Publicaciones Europa",
     "relato": "Pendiente de relato..."
   },
@@ -1321,7 +1321,7 @@
     "titulo": "05052002-pub.sueca",
     "thumb": "fotos/pub_suecia/05052002-pub.sueca.webp",
     "full": "fotos/pub_suecia/05052002-pub.sueca.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Publicaciones Europa",
     "relato": "Pendiente de relato..."
   },
@@ -1334,7 +1334,7 @@
     "titulo": "Arribo esmeralda",
     "thumb": "fotos/pub_valparaiso/arribo_esmeralda.webp",
     "full": "fotos/pub_valparaiso/arribo_esmeralda.webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Puerto de Valparaíso",
     "relato": "Pendiente de relato..."
   },
@@ -1347,7 +1347,7 @@
     "titulo": "Arribo esmeralda 2",
     "thumb": "fotos/pub_valparaiso/arribo_esmeralda_2.webp",
     "full": "fotos/pub_valparaiso/arribo_esmeralda_2.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Puerto de Valparaíso",
     "relato": "Pendiente de relato..."
   },
@@ -1373,7 +1373,7 @@
     "titulo": "Dsc 4425-editar",
     "thumb": "fotos/pub_planta_litio/dsc_4425-editar.webp",
     "full": "fotos/pub_planta_litio/dsc_4425-editar.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Explotación Litio",
     "relato": "Pendiente de relato..."
   },
@@ -1386,7 +1386,7 @@
     "titulo": "Dsc 4470",
     "thumb": "fotos/pub_planta_litio/dsc_4470.webp",
     "full": "fotos/pub_planta_litio/dsc_4470.webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Explotación Litio",
     "relato": "Pendiente de relato..."
   },
@@ -1399,7 +1399,7 @@
     "titulo": "Dsc 5027 copia-editar",
     "thumb": "fotos/pub_planta_litio/dsc_5027_copia-editar.webp",
     "full": "fotos/pub_planta_litio/dsc_5027_copia-editar.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Explotación Litio",
     "relato": "Pendiente de relato..."
   },
@@ -1412,7 +1412,7 @@
     "titulo": "G0010946 copia",
     "thumb": "fotos/pub_planta_litio/g0010946_copia.webp",
     "full": "fotos/pub_planta_litio/g0010946_copia.webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Explotación Litio",
     "relato": "Pendiente de relato..."
   },
@@ -1425,7 +1425,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(1).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(1).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1451,7 +1451,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(11).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(11).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1490,7 +1490,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(14).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(14).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1516,7 +1516,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(16).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(16).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1529,7 +1529,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(17).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(17).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1542,7 +1542,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(18).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(18).webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1555,7 +1555,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(19).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(19).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1581,7 +1581,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(20).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(20).webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1594,7 +1594,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(21).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(21).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1633,7 +1633,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(24).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(24).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1646,7 +1646,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(25).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(25).webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1659,7 +1659,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(26).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(26).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1672,7 +1672,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(27).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(27).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1685,7 +1685,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(28).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(28).webp",
-    "rating": 5,
+    "rating": 3,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1698,7 +1698,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(29).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(29).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1724,7 +1724,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(30).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(30).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
@@ -1737,7 +1737,7 @@
     "titulo": "Valle luna",
     "thumb": "fotos/nomad_valle_luna/valle_luna_(31).webp",
     "full": "fotos/nomad_valle_luna/valle_luna_(31).webp",
-    "rating": 5,
+    "rating": 4,
     "descripcion": "Valle de la Luna / Atacama",
     "relato": "Pendiente de relato..."
   },
